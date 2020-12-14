@@ -1,0 +1,47 @@
+{
+  "name": "@cyys/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "vue lint config for cy",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "eslint . --no-fix"
+  },
+  "keywords": [
+    "cy",
+    "eslint",
+    "vue",
+    "prettier",
+    "airbnb"
+  ],
+  "dependencies": {
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0",
+    "eslint": ">= 5.0.0",
+    "@vue/cli-plugin-eslint": "^4.2.2",
+    "eslint-plugin-vue": "^6.2.0",
+    "prettier": "1.19.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.2.3",
+    "eslint": "^6.7.2",
+    "prettier": "1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunyuFE/eslint-config-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChunyuFE/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/ChunyuFE/eslint-config-vue#readme"
+}
